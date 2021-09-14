@@ -1,0 +1,11 @@
+.contactSection{
+    display: flex;
+    flex: 1;
+}
+.bg{
+    justify-content: center;
+}
+.contact{
+    width:50%;
+    align-items: center;
+}

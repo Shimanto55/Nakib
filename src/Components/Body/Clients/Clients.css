@@ -1,0 +1,12 @@
+.section-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.clientsN{
+    display: flex;
+    flex: 1;
+}
+.clients{
+    text-align: center;
+    margin: auto;
+}

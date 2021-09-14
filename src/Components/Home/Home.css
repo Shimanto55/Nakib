@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+.nogap{
+    width: 100%;
+}
+.gap{
+    width: 70%;
+    margin: auto;
+}
+@media only screen and (max-width:1024px){
+    .nogap{
+        width: 100%;
+    }
+    .gap{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:512px){
+    .nogap{
+        width: 100%;
+    }
+    .gap{
+        width: 100%;
+        margin: auto;
+    }
+}
